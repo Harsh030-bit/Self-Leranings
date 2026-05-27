@@ -124,6 +124,10 @@ Step 17 :- create a installnginx.yaml file in
 cd /etc/ansible
 vi  installnginx.yaml
 
+
+
+
+############### ANSIBLE PLAYBOOK TO install nginx ##################
 ---
 - hosts: all
   tasks:
